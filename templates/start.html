@@ -4,13 +4,17 @@
 
 <h1>Pipe</h1>
 
-<form>
 
-    enter pipe uuid<br>
-    <input type="text" name="lastname">
-    <input type="button" name="go" value="connect"> <br>
+<form method="post" action="/start">
+    enter pipe uuid:
 
+    <br>
 
-    or start a new pipe<br>
-    <input type="button" name="new" value="new">
+    <input type="text" name="pipe_id">
+    <input type="submit" name="go" value="connect"> <br>
+
+    <p></p>
+
+    or start a new pipe
+    <input type="submit" name="new" value="new"><br>
 </form>
