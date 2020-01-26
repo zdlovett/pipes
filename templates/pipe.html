@@ -2,7 +2,7 @@
 
 <h1>pipe page</h1>
 
-<p>connected to pipe {%pipe_uuid%}</p>
+<p>connected to pipe {{pipe_uuid}}</p>
 
 <!-- 
     TODO fill in some neat JS to do the web sockets and 
@@ -12,4 +12,8 @@
     for sorting all of that out.
 
     Might actually be worth looking into also using fastapi for some of this shit...
+
+    Need to open connection to server for signalling and keep it open, 
+    look into websockets for this? -> probably the best option.
+
 -->

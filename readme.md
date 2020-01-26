@@ -1,3 +1,5 @@
+# Overview
+
 The goal of the app is to provide the user with a way to share files 
 in a ephemeral fashion, with no uploading to cloud storage nonsense. 
 
@@ -19,3 +21,11 @@ for that file to not actually be uploaded until another user has requested the f
 
 Again, eventually this should be something that happens over webRTC with no bytes of the 
 payload ever passing though the server connection. 
+
+
+
+
+# Things to Solve
+* Lifecycle management of the pipe/pipe uuid when to invalidate the pipe? On last user disconnect?
+* all of the js bits lol 
+* should the app actually just be a js webapp that is served as a single page, and then a combo api server / ICE / TURN / whatever server(s) in the background to make it all work?
